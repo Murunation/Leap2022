@@ -1,0 +1,24 @@
+button {
+  width: 300px;
+  height: 100px;
+  background-color: blanchedalmond;
+  color: blue;
+  font-size: 30px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 2px 4px 10px;
+  transition: 0.5s;
+}
+button:hover {
+  color: black;
+  width: 200px;
+  background-color: aquamarine;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 2px 5px 10px;
+}
+button:active {
+  background-color: red;
+  color: white;
+  transition: 0.5s;
+}
