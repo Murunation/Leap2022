@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+}
+
+/* header start here */
+
+header {
+  background-color: rgb(229, 105, 28);
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+header .header-left {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+}
+header .menu-mobile {
+  display: none;
+  width: 100%;
+}
+
+header .menu-desktop {
+  width: 70%;
+  background-color: #d59367;
+}
+
+/* Dropdown */
+
+.dropdown {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  background-color: aqua;
+}
+.dropbtn {
+  background-color: rgb(252, 255, 254);
+  border: none;
+  margin: 10px 0 10px 10px;
+  border-radius: 10px;
+}
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 120px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.content a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+  padding: 10px 10px;
+}
+.content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .content {
+  display: block;
+  margin-top: 55px;
+  transition: 0.5s;
+}
+.dropdown:hover .dropbtn {
+  transition: 0.5s;
+  background-color: #d59367;
+}
+
+/* Mobile*/
+
+@media screen and (max-width: 700px) {
+  header .menu-desktop {
+    display: none;
+  }
+  header .menu-mobile {
+    display: block;
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(179, 52, 52);
+  }
+  header .header-left {
+    width: 50%;
+    background-color: #b5912669;
+  }
+  header .dropdown {
+    width: 50%;
+  }
+  header .head {
+    flex-wrap: wrap;
+  }
+
+  section {
+    display: block;
+    flex-wrap: wrap;
+  }
+  main .left-side {
+    display: block;
+    width: 100%;
+    height: 57vh;
+  }
+  main .links a {
+    text-align: center;
+  }
+  main .right-side {
+    width: 100%;
+  }
+  main .right-side .cards {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+/* left-side section start here */
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mini {
+  width: 80%;
+  margin: auto;
+}
+.left-side {
+  width: 25%;
+  height: 80vh;
+  background-color: #d59367;
+  margin-top: 20px;
+}
+.left-side img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.links a {
+  margin-top: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+/* right */
+
+.right-side {
+  width: 73%;
+  background-color: #d59367;
+  margin-top: 20px;
+}
+.right-side .cards {
+  width: 35%;
+}
+.right-side .card img {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.right-side h4 {
+  text-align: center;
+}
+.right-side .card {
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
