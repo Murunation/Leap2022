@@ -3,13 +3,13 @@ let athletics = [
     name: "Skyler",
     age: 21,
     country: "USA",
-    record: [10, 15, 20, 35, 60],
+    record: [10, 15, 20, 35],
   },
   {
     name: "Walter",
     age: 51,
     country: "Mexico",
-    record: [20, 30, 50, 35, 70, 80],
+    record: [20, 30, 50],
   },
   {
     name: "Bat",
@@ -21,17 +21,29 @@ let athletics = [
     name: "Hank",
     age: 46,
     country: "USA",
-    record: [50, 70, 30, 35, 60, 70],
+    record: [50, 70],
   },
 ];
 
-getAllInfo(athletics);
+// getAllInfo(athletics);
+
 function allNames(list) {
   let names = [];
   for (i = 0; i < list.length; i++) {
     names.push(list[i].name);
   }
   return names;
+}
+
+function avgSec(list) {
+  let avgList = [];
+  for (i = 0; i < list.length; i++) {
+    //list.length = 5 (hunii too)
+    let sum = 0;
+    for (j = 0; j < list[i].record.length; j++) {
+      sum += list[i].record[j];
+    }
+  }
 }
 
 // function avgAge(average) {
