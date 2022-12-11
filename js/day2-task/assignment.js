@@ -1,3 +1,5 @@
+//1
+
 // let i = 4 > 3; // true
 // console.log(i);
 // let iii = 4 < 3; //false
@@ -21,6 +23,8 @@
 // let xi = 4 === "4"; //false
 // console.log(xi);
 
+
+//2
 // let one = 4 > 3 && 10 > 12; //false
 // console.log(one);
 // let two = 4 > 3 && 10 < 12; //true
@@ -40,10 +44,35 @@
 // let nine = !(4 === "4"); //true
 // console.log(nine);
 
-// let A = 5 + " myAge";
-// let B = 4 + "yourAge";
-// if (A > B) {
-//   console.log("Bi chamaas ah um bna haha");
+//3
+// let myAge = 20;
+// let yourAge =parseFloat(prompt("Ta nasaa oruulna uu?"))
+// if (myAge>yourAge){
+//     alert("Bi chamaas ah um bna ahiin duu haha")
 // } else {
-//   console.log("Bi chamaas duu um bna haha");
+//     alert("Tanias duu um bnoo ahaa")
 // }
+
+//4
+// let day = parseFloat(prompt("Unuudur?"));
+// switch (day) {
+//   case 1:
+//   case 2:
+//   case 3:
+//   case 4:
+//   case 5:
+//    alert("Ajliin udur");
+//     break;
+//   case 6:
+//   case 7:
+//     alert("weekend");
+//     break;
+//   default:
+//     alert("Not a day");
+// }
+
+//5
+
+let  hours = parseFloat(prompt("Ajilsan tsag aa oruulna uu?"))
+let ratePerhour = 28;
+alert( "This week u will get " + hours*ratePerhour + " Usd")
