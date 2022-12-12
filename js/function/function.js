@@ -39,9 +39,9 @@ myFunction(2, 3);
 function sumofThree(num1, num2, num3) {
   return num1 + num2 + num3;
 }
-let result = sumofThree(1, 2, 3); //not step 1
+//            //not step 1
 // console.log(sumofThree(1, 2, 3)); // step 2 but not
-console.log(result); //update of ster 2
+// console.log(result); //update of ster 2
 // result Sum of three number : 6
 
 //ex Sum of Three prompt alert
@@ -99,3 +99,14 @@ console.log(result); //update of ster 2
 // }
 // let txt = upper.toUpperCase();
 // alert(txt);
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log(i);
+// }
+// let even = parseFloat(prompt([]));
+// let even1 = parseFloat(prompt([]));
+// let result = [];
+// while (even % 2 == 0) {
+//   if ((result = even)) {
+//   }
+// }
