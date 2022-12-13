@@ -1,15 +1,15 @@
-//ID
-// document.getElementById("root").innerText =
-//   "<div class=darkmode> <h2>This is a Dark Mode</h2> </div>";
-//CLASS
-// document.getElementsByClassName("dummy")[0].innerHTML = " World!"; //[0] barij awna Elemtns gej bga uchir
-//TAG selector
-// document.getElementsByTagName("h1")[0].innerHTML = "H1 "; //Tag aar n barij awna
-//QUERYSELECTOR
-// document.querySelector(".name").innerHTML = "THIs is a name"; //classiin duudaj barij awna.
-
-// document.getElementById("root").innerHTML =
-//   "<div class= 'darkmode'> <h1>Hello shuudee</h1> </div>";
+// ID
+document.getElementById("root").innerText =
+  "<div class=darkmode> <h2>This is a Dark Mode</h2> </div>";
+// CLASS
+document.getElementsByClassName("dummy")[0].innerHTML = " World!"; //[0] barij awna Elemtns gej bga uchir
+// TAG selector
+document.getElementsByTagName("h1")[0].innerHTML = "H1 "; //Tag aar n barij awna
+// QUERYSELECTOR
+document.querySelector(".name").innerHTML = "THIs is a name"; //classiin duudaj barij awna.
+//elements
+document.getElementById("root").innerHTML =
+  "<div class= 'darkmode'> <h1>Hello shuudee</h1> </div>";
 
 //img
 // document.getElementsByTagName("img")[0].alt = "Blalal";
@@ -64,3 +64,5 @@ setInterval(function () {
 
 let name = "andy";
 let message = `${i}px`; //$ huwisagch bolgoj bgaa
+
+//
