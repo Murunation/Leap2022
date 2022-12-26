@@ -28,4 +28,4 @@ function getCountry(country) {
     .then((res) => res.json())
     .then((data) => renderCountry(data[0]));
 }
-getCountry("usa");
+getCountry("norway");
