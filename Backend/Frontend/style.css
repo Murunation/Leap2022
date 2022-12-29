@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(100, 148, 237, 0.674);
+}
+.card-body {
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 21px;
+  text-align: center;
+  width: 200px;
+  background-color: rgba(173, 216, 230, 0.731);
+}
+img {
+  width: 200px;
+  border-radius: 21px;
+}
+#root {
+  display: flex;
+  flex-wrap: wrap;
+}
+input {
+  width: 200px;
+  height: 3vh;
+  border-radius: 21px;
+  border: none;
+}
+button {
+  width: 100px;
+  height: 3vh;
+  border-radius: 21px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+}
